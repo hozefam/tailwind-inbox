@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind - Inbox</title>
+    <link rel="stylesheet" href="./public/styles.css">
+</head>
+<body>
+    <div class="flex flex-row h-screen bg-gray-100">
+        <div class="w-16 flex flex-col justify-between items-center flex-none py-4 bg-gray-200">
+            <div class="flex flex-col items-center space-y-4 w-full">
+                <a>
+                    <div class="rounded-full bg-gray-400 w-8 h-8"></div>
+                </a>
+                <a class="relative">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
+                    </svg>
+                    <div class="absolute top-0 right-0 bg-red-500 w-4 h-4 text-center text-xs text-white rounded-full">2</div>
+                </a>
+                <a>
+                    <div class="rounded-full bg-gray-400 w-8 h-8"></div>
+                </a>
+                <a>
+                    <div class="rounded-full bg-gray-400 w-8 h-8"></div>
+                </a>
+                <a>
+                    <div class="rounded-full bg-gray-400 w-8 h-8"></div>
+                </a>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <a>
+                    <div class="rounded-full bg-gray-400 w-8 h-8"></div>
+                </a>
+                <a>
+                    <div class="rounded-full bg-gray-400 w-8 h-8"></div>
+                </a>
+                <a>
+                    <div class="rounded-full bg-gray-400 w-8 h-8"></div>
+                </a>
+            </div>
+        </div>
+        <div class="w-64 bg-gray-100 p-4 flex flex-col flex-none space-y-4">
+            <div class="flex flex-row items-center justify-between mb-4">
+                <h1 class="font-semibold text-2xl">Inbox</h1>
+                <svg class="w-4 h-4 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+            <div class="bg-gray-200 h-64 rounded-lg flex justify-center items-center">
+                Content
+            </div>
+            <div class="bg-gray-200 h-64 rounded-lg flex justify-center items-center">
+                Content
+            </div>
+        </div>
+        <div class="flex-auto bg-white rounded-l-2xl border-l shadow-xl flex flex-row">
+            <div class="flex flex-col w-1/5">
+                <div class="flex-none h-24 p-4">
+                    Top
+                </div>
+                <div class="flex-auto overflow-y-auto">
+                    <a class="block border">
+                        <div class="border-l-2 border-blue-500 p-2 space-y-3 hover:bg-gray-100">
+                            <div class="flex flex-row justify-between items-center space-x-2">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <strong class="flex-grow text-sm">Nikola Tesla</strong>
+                                <div class="text-xs text-gray-600">5hr</div>
+                            </div>
+                            <div class="flex flex-row items-center space-x-1">
+                                <svg class="w-3 h-3 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <div class="flex-grow truncate text-xs">some message content that is very long to fit here </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="block border">
+                        <div class="border-l-2 border-transparent p-2 space-y-3 hover:bg-gray-100">
+                            <div class="flex flex-row justify-between items-center space-x-2">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <strong class="flex-grow text-sm">Nikola Tesla</strong>
+                                <div class="text-xs text-gray-600">5hr</div>
+                            </div>
+                            <div class="flex flex-row items-center space-x-1">
+                                <svg class="w-3 h-3 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <div class="flex-grow truncate text-xs">some message content that is very long to fit here</div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="w-3/5 border-l border-r border-gray-300 flex flex-col">
+                <div class="h-20 flex-none flex flex-row justify-between items-center p-4 border border-b">
+                    <div class="flex flex-col space-y-1">
+                        <strong>Nikola Tesla</strong>
+                        <input type="text" class="text-sm text-gray-600 placeholder-gray-400 border-b border-dashed outline-none" placeholder="Enter some description" />
+                    </div>
+                    <div class="flex flex-row justify-center items-center space-x-1">
+                        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                        </svg>
+                        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                        </svg>
+                        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                        </svg>
+                        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                        </svg>
+                        <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex-auto overflow-y-auto p-4 space-y-4" style="background-image: url(https://static.intercomassets.com/ember/assets/images/messenger-backgrounds/background-1-99a36524645be823aabcd0e673cb47f8.png)">
+                    <div class="flex flex-row space-x-4">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-gray-200 rounded p-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, maxime.
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row space-x-4">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-gray-200 rounded p-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quo et vel libero repudiandae consectetur officia quasi nihil tempore. Repudiandae, velit deserunt. Quos, repellat, facere consequatur voluptatem accusamus laudantium sed magni reprehenderit esse assumenda quam sunt atque aut odit nihil numquam molestias ex voluptas excepturi. Voluptatibus, nam delectus sint, earum ut voluptatum labore eius non asperiores saepe accusamus commodi odio, libero repellat beatae explicabo eum excepturi dolor. Earum, repellat optio qui blanditiis magni ab provident veniam amet fugit consectetur deleniti corrupti eveniet? Alias ea quam officia necessitatibus soluta laudantium enim distinctio porro dolorum ad et commodi sunt ducimus, totam placeat?
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row space-x-4">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-gray-200 rounded p-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta voluptas nobis quia beatae aspernatur dolore. Quae libero quidem nam esse deleniti, cumque aspernatur, temporibus eligendi amet rem unde qui.
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-reverse space-x-4 flex-row-reverse ">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-blue-200 rounded p-4">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptas ad sed nesciunt distinctio obcaecati vel odit quisquam culpa hic!
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>                   
+
+                    <div class="flex flex-row justify-center text-blue-400  items-center space-x-2 border-t border-dashed">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <div class="text">
+                            Today
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-reverse space-x-4 flex-row-reverse ">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-blue-200 rounded p-4">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>    
+
+                    <div class="flex flex-row space-x-4">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-gray-200 rounded p-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quod.
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row space-x-4">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-gray-200 rounded p-4">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-reverse space-x-4 flex-row-reverse ">
+                        <svg class="w-6 h-6 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="bg-blue-200 rounded p-4">
+                                some message text
+                                some message text
+                                some message text
+                            </div>
+                            <div class="text-sm text-gray-500">5hr ago</div>
+                        </div>
+                    </div>    
+
+                </div>
+                <div class="h-40 flex-none pt-0 p-4">
+                    <textarea class="w-full h-full p-4 outline-none resize-none border hover:border-blue-600 focus:border-blue-600 rounded-lg shadow-lg">Hi</textarea>
+                </div>
+            </div>
+            <div class="w-1/5 bg-gray-200 overflow-y-auto flex flex-col">
+                <div class="h-64 flex-none border-b border-gray-500 p-4 flex justify-center items-center">
+                    <div class="font-semibold">Conversation</div>
+                </div>
+                <div class="flex flex-col space-y-4 p-4">
+                    <div class="bg-white border rounded-lg h-64 p-4 flex-none justify-center flex items-center">
+                        Card
+                    </div>
+                    <div class="bg-white border rounded-lg h-64 p-4 flex-none justify-center flex items-center">
+                        Card
+                    </div>
+                    <div class="bg-white border rounded-lg h-64 p-4 flex-none justify-center flex items-center">
+                        Card
+                    </div>
+                    <div class="bg-white border rounded-lg h-64 p-4 flex-none justify-center flex items-center">
+                        Card
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
